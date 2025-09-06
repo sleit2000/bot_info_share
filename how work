@@ -1,3 +1,32 @@
+Rank System Help
+Ranks are assigned monthly based on activity among active users.
+Active users are members with more than 0 monthly points.,
+Your position among active users determines a candidate tier using percentile shares.,
+You must also meet each tier's minimum points (and sometimes active days).,
+If you don't meet the candidate tier requirements, you drop to the next tier.,
+Users with 0 points or 0 active days are Unranked.,
+Earning points
+Minimum characters per message: 5,
+Base points: message length / 30 (capped at 15 pts/msg),
+Daily cap: up to 100 pts/day,
+Bonuses: question '?' +2 pts, code block ``` +3 pts,
+Anti-spam: very short/meaningless messages give 0 pts; at least 30s between scored messages.,
+Inactivity decay
+Points decay when inactive (tiered): 1-3 days: -0/day, 4-7 days: -10/day, 8-14 days: -25/day, 15-21 days: -50/day, 22-9999 days: -100/day
+Tiers overview
+ Challenger — Share: 1% | Min pts: 5000
+ Grandmaster — Share: 2% | Min pts: 4000
+ Master — Share: 3% | Min pts: 3000
+ Diamond — Share: 4% | Min pts: 2000
+ Emerald — Share: 5% | Min pts: 1500
+ Platinum — Share: 10% | Min pts: 1000
+ Gold — Share: 15% | Min pts: 750
+ Silver — Share: 15% | Min pts: 500
+ Bronze — Share: 20% | Min pts: 250
+ Iron — Share: 25% | Min pts: 100
+ Unranked — Share: - | Min pts: 0-99
+Useful commands: !rank (leaderboard), !myrank (your rank), !ranks (tiers)
+
 Strategy for Measuring Quality
 The bot doesn't try to understand the meaning of a message (that would require complex AI). Instead, it uses a practical, rule-based strategy:
 
